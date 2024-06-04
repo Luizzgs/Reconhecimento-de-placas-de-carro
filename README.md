@@ -1,7 +1,7 @@
 <div align="center">
 
 # Protocolo de processamento de imagens 📷
-Código em ***python*** para um sistema de reconhecimento e identificação de placas de carros na disciplina de *Computação Gráfica*.
+Sistema de reconhecimento automático de caracteres em placas de carros, desenvolvido utilizando *Python*, *Tesseract* e *OpenCV*. O sistema é capaz de processar imagens de placas de carros, identificar os caracteres nelas contidos e convertê-los em texto legível.
 
 </div>
 
@@ -12,6 +12,12 @@ Código em ***python*** para um sistema de reconhecimento e identificação de p
 - ***Python***;
 - biblioteca `opencv`;
 - ***Tesseract OCR***.
+
+## Funcionalidades Principais 🔧
+
+- **Pré-processamento de Imagens:** Conversão para escala de cinza, aplicação de técnicas morfológicas para aumento de contraste e thresholding adaptativo.
+- **Segmentação da Imagem:** Detecção de bordas, aplicação de máscaras, divisão em regiões e isolamento de caracteres.
+- **Interpretação da Imagem:** Reconhecimento óptico de caracteres (OCR), correção de inclinação e normalização, filtragem de ruído e pós-processamento dos resultados.
 
 ## Construção 📄
 
